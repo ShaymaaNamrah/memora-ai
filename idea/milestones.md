@@ -1,9 +1,9 @@
-- [ ] Confirm scope, design reference, and palette
-- [ ] Build core navigation shell + Dashboard
-- [ ] Build AI Generate flow (mock generation + editable review)
-- [ ] Build Study Mode with flip animation + difficulty rating
-- [ ] Build spaced repetition engine + daily review + streaks
+- [ ] Build core navigation shell + Dashboard (decks, streak, due-today, search)
+- [ ] Build AI Generate flow (source input → card-type picker → processing → editable review, mock generation)
+- [ ] Build Study Mode with flip animation + Easy/Medium/Hard rating
+- [ ] Build spaced repetition engine + daily review queue + streaks
 - [ ] Build Quiz Mode (timed, scored, review mistakes)
-- [ ] Build Analytics (charts + streak history)
-- [ ] Add onboarding + Superwall paywall placement
-- [ ] Wire OpenAI generation + Supabase auth/DB (live pass)
+- [ ] Build Analytics (Swift Charts + streak history)
+- [ ] Add personalization-quiz onboarding + Superwall paywall placement
+- [ ] Add German + English localization
+- [ ] Live pass: wire OpenAI generation + Supabase auth/DB + Superwall premium
