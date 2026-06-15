@@ -2,7 +2,7 @@ import SwiftUI
 import SwiftData
 
 @main
-struct SmartCardsApp: App {
+struct Memora AI: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
