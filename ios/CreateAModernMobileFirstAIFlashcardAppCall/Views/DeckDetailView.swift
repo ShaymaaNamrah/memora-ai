@@ -41,7 +41,7 @@ struct DeckDetailView: View {
                 GenerateView()
             }
             .fullScreenCover(isPresented: $showQuiz) {
-                GenerateView(deck: deck)
+                GenerateView()
             }
         }
         .trackView("DeckDetailView")
