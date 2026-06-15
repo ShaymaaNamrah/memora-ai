@@ -20,11 +20,11 @@ struct ContentView: View {
                     .tabItem { Label("Study", systemImage: "bolt.fill") }
                     .tag(Tab.study)
             
-                DashboardView()
+                ProgressView()
                     .tabItem { Label("Progress", systemImage: "chart.bar.fill") }
                     .tag(Tab.analytics)
             
-                DashboardView()
+                SettingsView()
                     .tabItem { Label("Settings", systemImage: "gearshape.fill") }
                     .tag(Tab.settings)
             }
