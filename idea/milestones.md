@@ -1,0 +1,9 @@
+- [ ] Confirm scope, design reference, and palette
+- [ ] Build core navigation shell + Dashboard
+- [ ] Build AI Generate flow (mock generation + editable review)
+- [ ] Build Study Mode with flip animation + difficulty rating
+- [ ] Build spaced repetition engine + daily review + streaks
+- [ ] Build Quiz Mode (timed, scored, review mistakes)
+- [ ] Build Analytics (charts + streak history)
+- [ ] Add onboarding + Superwall paywall placement
+- [ ] Wire OpenAI generation + Supabase auth/DB (live pass)
