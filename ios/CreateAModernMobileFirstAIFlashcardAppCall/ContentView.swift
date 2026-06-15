@@ -24,7 +24,7 @@ struct ContentView: View {
                     .tabItem { Label("Progress", systemImage: "chart.bar.fill") }
                     .tag(Tab.analytics)
             
-                SettingsView()
+                DashboardView()
                     .tabItem { Label("Settings", systemImage: "gearshape.fill") }
                     .tag(Tab.settings)
             }
