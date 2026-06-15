@@ -38,7 +38,7 @@ struct DeckDetailView: View {
             .navigationTitle(deck.title)
             .navigationBarTitleDisplayMode(.inline)
             .fullScreenCover(isPresented: $showStudy) {
-                StudyView(deck: deck)
+                GenerateView(deck: deck)
             }
             .fullScreenCover(isPresented: $showQuiz) {
                 QuizView(deck: deck)
