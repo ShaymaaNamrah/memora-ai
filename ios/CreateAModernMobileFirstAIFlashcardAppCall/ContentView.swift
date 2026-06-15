@@ -16,11 +16,11 @@ struct ContentView: View {
                     .tabItem { Label("Decks", systemImage: "rectangle.stack.fill") }
                     .tag(Tab.home)
             
-                ReviewHomeView()
+                GenerateView()
                     .tabItem { Label("Study", systemImage: "bolt.fill") }
                     .tag(Tab.study)
             
-                AnalyticsView()
+                DashboardView()
                     .tabItem { Label("Progress", systemImage: "chart.bar.fill") }
                     .tag(Tab.analytics)
             
