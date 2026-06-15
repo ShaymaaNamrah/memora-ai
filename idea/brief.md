@@ -49,3 +49,12 @@ Upload/paste source → AI generates a deck → study it. This is the magic mome
 - v1 built mock/local-first with SwiftData persistence so the full loop is real and demoable offline.
 - OpenAI generation, Supabase auth/DB, and Superwall paywall wired as a second pass when you're ready to go live.
 - Premium via Superwall + StoreKit (not Stripe, per Apple rules).
+
+## Selected Design System
+
+- Reference: Duolingo
+- Design traits: rounded, friendly, gamified, high-energy, motivating
+- Catalog seed: Clean (`clean`)
+- Palette: Premium Ink + Indigo
+- Palette tokens: primary #18181B, accent #6366F1, background #FAFAF7
+- Status: selected by the user in Research.
